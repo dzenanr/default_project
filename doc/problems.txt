@@ -2,15 +2,6 @@ Problems
 
 Mixin Problem
 
-default_project
-https://github.com/dzenanr/default_project
-ProjectGen in lib/gen/default/project/projects.dart
-
-dartling
-https://github.com/dzenanr/dartling
-ConceptEntity in lib/domain/model/entity.dart
-class ConceptEntity<E extends ConceptEntity<E>> implements EntityApi {
-
 abstract class ProjectGen extends Object with ConceptEntity<Project> { 
 Ubuntu: terminated, with exit code=139
 Windows 7: exit code=-1073741819
@@ -22,3 +13,13 @@ Restrictions on the ConceptEntity mixin in dartling:
 ConceptEntity does not declare a constructor.
 Its superclass is Object.
 It does not ontain calls to super.
+
+default_project
+https://github.com/dzenanr/default_project
+ProjectGen in lib/gen/default/project/projects.dart
+
+dartling
+https://github.com/dzenanr/dartling
+ConceptEntity in lib/domain/model/entity.dart
+class ConceptEntity<E extends ConceptEntity<E>> implements EntityApi {
+
