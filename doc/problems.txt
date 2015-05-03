@@ -1,6 +1,6 @@
 Problems
 
-Mixin Problem
+Mixin Problem﻿
 
 Without the use of a mixin, the following code in the default_project works:
 
@@ -26,3 +26,4 @@ ConceptEntity in lib/domain/model/entity.dart
 
     class ConceptEntity<E extends ConceptEntity<E>> implements EntityApi {
 
+In a small example the use of a similar mixin works fine. 
