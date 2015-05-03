@@ -1,0 +1,1 @@
+--genall /home/dzenanr/dart/model/default_project default project

@@ -1,0 +1,13 @@
+name: default_project
+version: 0.0.2
+author: Your Name
+description: default_project application that uses dartling for its model.
+homepage: http://ondart.me/
+environment:
+  sdk: '>=1.10.0 <2.0.0'
+documentation:
+dependencies:
+  browser: any
+  dartling: any
+  dartling_default_app: any
+  
