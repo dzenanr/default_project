@@ -12,7 +12,8 @@ ConceptEntity in lib/domain/model/entity.dart
 class ConceptEntity<E extends ConceptEntity<E>> implements EntityApi {
 
 abstract class ProjectGen extends Object with ConceptEntity<Project> { 
-terminated, with exit code=139
+Ubuntu: terminated, with exit code=139
+Windows 7: exit code=-1073741819
 
 abstract class ProjectGen extends ConceptEntity<Project> { 
 it works
