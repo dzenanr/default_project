@@ -1,0 +1,9 @@
+Problems
+
+Mixin
+
+abstract class ProjectGen extends Object with ConceptEntity<Project> { 
+terminated, with exit code=139
+
+abstract class ProjectGen extends ConceptEntity<Project> { 
+it works
