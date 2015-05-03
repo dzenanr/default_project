@@ -2,14 +2,14 @@ Problems
 
 Mixin Problem
 
-abstract class ProjectGen extends Object with ConceptEntity<Project> { 
-Ubuntu: terminated, with exit code=139
-Windows 7: exit code=-1073741819
-
+Without the use of a mixin, the following code in the default_project works:
 abstract class ProjectGen extends ConceptEntity<Project> { 
-it works
 
-Restrictions on the ConceptEntity mixin in dartling:
+With the use of mixin, there is a problem, without an error message, 
+with the exit code=139 on Ubuntu and the exit code=-1073741819 on Windows 7.
+abstract class ProjectGen extends Object with ConceptEntity<Project> { 
+ 
+The restrictions on the ConceptEntity mixin in dartling are fulfilled:
 ConceptEntity does not declare a constructor.
 Its superclass is Object.
 It does not ontain calls to super.
