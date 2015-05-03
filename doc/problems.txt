@@ -6,7 +6,7 @@ Without the use of a mixin, the following code in the default_project works:
 
     abstract class ProjectGen extends ConceptEntity<Project> { 
 
-With the use of mixin, there is a problem, without an error message, 
+With the use of the ConceptEntity mixin, there is a problem, without an error message, 
 with the exit code=139 on Ubuntu 14.04 LTS, and the exit code=-1073741819 on Windows 7.
 
     abstract class ProjectGen extends Object with ConceptEntity<Project> { 
@@ -18,8 +18,7 @@ It does not ontain calls to super.
 
 default_project
 https://github.com/dzenanr/default_project
-
-    ProjectGen in lib/gen/default/project/projects.dart
+ProjectGen in lib/gen/default/project/projects.dart
 
 dartling
 https://github.com/dzenanr/dartling
