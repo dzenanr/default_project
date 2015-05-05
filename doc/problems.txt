@@ -1,6 +1,7 @@
 Problems
 
-Mixin Problem﻿
+Mixin Problem (Issue 23385)
+https://code.google.com/p/dart/issues/detail?id=23385&thanks=23385&ts=1430829914﻿
 
 Without the use of a mixin, the following code in the default_project works:
 
